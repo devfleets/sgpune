@@ -24,7 +24,7 @@ export const siteData = {
     addressLine2: "दादर पूर्व, मुंबई - 400014",
     phone: "+91 98765 43210",
     email: "info@shivgarjana.com",
-    copyright: `© ${new Date().getFullYear()} शिवगर्जना धोल ताशा पथक. सर्व हक्क राखीव.`,
+    copyright: `© ${new Date().getFullYear()} शिवगर्जना ढोल ताशा पथक. सर्व हक्क राखीव.`,
     privacyPolicy: { name: "गोपनीयता धोरण", href: "/privacy" },
     termsAndConditions: { name: "नियम आणि अटी", href: "/terms" },
   },
@@ -294,7 +294,7 @@ export const siteData = {
       },
       address: {
         title: "पत्ता",
-        line1: "श्री गणेश धोल ताशा पथक",
+        line1: "शिवगर्जना ढोल ताशा पथक",
         line2: "123, संस्कृती भवन",
         line3: "दादर पूर्व, मुंबई - 400014",
         line4: "महाराष्ट्र, भारत",
@@ -524,8 +524,8 @@ export const siteData = {
   // Content for the Home page (app/page.tsx)
   homePage: {
     hero: {
-      altText: "शिवगर्जना - Dhol Tasha Pathak",
-      title: "श्री गणेश धोल ताशा पथक",
+      altText: "Shivagarjana Dhol Tasha Dhwaj Pathak Pune",
+      title: "शिवगर्जना ढोल ताशा पथक",
       tagline: '"परंपरेचा ध्वज, संस्कृतीचा गर्व - Beats of Tradition, Flags of Honor"',
       stats: [
         { icon: "Music", number: "50+", label: "धोल ताशा" },
