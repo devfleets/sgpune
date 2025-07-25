@@ -464,7 +464,7 @@ export const siteData = {
       title: "धोल ताशा मास्टर्स",
       members: [
         {
-          name: "संदीप काळे",
+          name: "ललित पवार",
           speciality: "धोल मास्टर",
           experience: "20+ वर्षे",
           achievement: "राज्यस्तरीय पुरस्कार विजेता",
@@ -604,10 +604,10 @@ export const siteData = {
     contactInfoSection: {
       title: "तुरंत संपर्क करा",
       description: "आमच्या कार्यक्रमांसाठी बुकिंग करा",
-      buttonCall: "कॉल करा",
+      buttonCall: "+919763422233",
       buttonEmail: "ईमेल करा",
-      phoneNumber: "+919876543210",
-      emailAddress: "contact@shivgarjana.com",
+      phoneNumber: "+919763422233",
+      emailAddress: "shivagarjana@gmail.com",
     },
   },
 }
