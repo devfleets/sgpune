@@ -1,7 +1,7 @@
 export const siteData = {
   // Metadata for the entire application (used in app/layout.tsx)
   metadata: {
-    title: "श्री गणेश धोल ताशा पथक | Dhol Tasha Pathak Mumbai",
+    title: "शिवगर्जना ढोल ताशा पथक | Shivagarjana Dhol Tasha Pathak Pune",
     description:
       "महाराष्ट्राच्या पारंपरिक संगीताचे संरक्षण करणारा धोल ताशा पथक. गणेश उत्सव, शिव जयंती आणि सांस्कृतिक कार्यक्रमांसाठी बुकिंग उपलब्ध.",
     keywords: "dhol tasha, pathak, mumbai, ganesh utsav, maharashtra culture, traditional music",

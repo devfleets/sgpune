@@ -24,7 +24,6 @@ export default function RootLayout({
     <html lang="mr">
       <body className={inter.className}>
         <Header />
-        <h1>Laxmi Roacha Buland Aawaj</h1>
         <main>{children}</main>
         <Footer />
       </body>
