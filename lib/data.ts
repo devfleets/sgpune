@@ -526,7 +526,7 @@ export const siteData = {
     hero: {
       altText: "Shivagarjana Dhol Tasha Dhwaj Pathak Pune",
       title: "शिवगर्जना ढोल ताशा पथक",
-      tagline: '"परंपरेचा ध्वज, संस्कृतीचा गर्व - Beats of Tradition, Flags of Honor"',
+      tagline: '"लक्ष्मी रोडचा बुलंद आवाज - The most powerful voice of Laxmi Road"',
       stats: [
         { icon: "Music", number: "300+", label: "धोल ताशा" },
         { icon: "Flag", number: "50+", label: "ध्वज" },
@@ -537,7 +537,7 @@ export const siteData = {
       buttonBookNow: "आता बुक करा",
     },
     aboutSection: {
-      title: "परंपरेचा ध्वज, संस्कृतीचा गर्व",
+      title: "लक्ष्मी रोडचा बुलंद आवाज",
       description:
         "आमचा धोल ताशा पथक महाराष्ट्राच्या समृद्ध संस्कृतीचा वारसा जपतो. गणेश उत्सव, शिव जयंती आणि इतर सांस्कृतिक कार्यक्रमांमध्ये आम्ही पारंपरिक संगीताच्या जोरावर वातावरण उत्साहाने भरून टाकतो. आमच्या प्रत्येक तालावर महाराष्ट्राचा अभिमान दिसतो.",
       buttonText: "आमच्याबद्दल अधिक जाणून घ्या",
