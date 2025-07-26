@@ -257,7 +257,7 @@ export const siteData = {
       stats: [
         { number: "500+", label: "एकूण कार्यक्रम", icon: "Calendar" },
         { number: "50+", label: "मंडळांसोबत सहकार्य", icon: "Users" },
-        { number: "15+", label: "वर्षांचा अनुभव", icon: "Star" },
+        { number: "24+", label: "वर्षांचा अनुभव", icon: "Star" },
         { number: "100K+", label: "एकूण प्रेक्षक", icon: "Users" },
       ],
     },
@@ -278,25 +278,25 @@ export const siteData = {
       title: "संपर्क माहिती",
       phone: {
         title: "फोन नंबर",
-        main: "मुख्य संपर्क: +91 98765 43210",
-        president: "अध्यक्ष: +91 87654 32109",
-        emergency: "आपत्कालीन: +91 76543 21098",
+        president: "ललित पवार (अध्यक्ष): +91 97634 22233",
+        main: "गणेश शिरके (मुख्य संपर्क): +91 91584 88818",
+        emergency: "महेश गोखले (आपत्कालीन): +91 98509 89720",
       },
       whatsapp: {
         title: "WhatsApp",
-        mainGroup: "मुख्य ग्रुप: +91 98765 43210",
+        mainGroup: "मुख्य ग्रुप: +91 9763422233",
         quickReply: "त्वरित उत्तरासाठी WhatsApp वापरा",
       },
       email: {
         title: "ईमेल",
-        info: "info@dholpathak.com",
-        booking: "booking@dholpathak.com",
+        info: "info@shivagarjana.com",
+        booking: "booking@shivagarjana.com",
       },
       address: {
         title: "पत्ता",
         line1: "शिवगर्जना ढोल ताशा पथक",
         line2: "123, संस्कृती भवन",
-        line3: "दादर पूर्व, मुंबई - 400014",
+        line3: "कोंढवा, पुणे - 411001",
         line4: "महाराष्ट्र, भारत",
       },
       hours: {
@@ -325,7 +325,7 @@ export const siteData = {
     mapSection: {
       title: "आमचे स्थान",
       placeholderText: "Google Map येथे दिसेल",
-      location: "दादर पूर्व, मुंबई - 400014",
+      location: "कोंढवा, पुणे - 411001",
     },
     faqSection: {
       title: "वारंवार विचारले जाणारे प्रश्न",
@@ -339,7 +339,7 @@ export const siteData = {
           answer: "आमची फी कार्यक्रमाच्या प्रकार, कालावधी आणि कलाकारांच्या संख्येवर अवलंबून असते. तपशीलासाठी संपर्क साधा.",
         },
         {
-          question: "आम्ही मुंबईबाहेर कार्यक्रम करतो का?",
+          question: "तुम्ही पुण्याबाहेरही कार्यक्रम करता का?",
           answer: "होय, आम्ही महाराष्ट्रभर कार्यक्रम करतो. प्रवास खर्च वेगळा लागतो.",
         },
         {
@@ -410,7 +410,7 @@ export const siteData = {
         },
         {
           year: "2024",
-          title: "100+ सदस्य",
+          title: "500+ सदस्य",
           description: "आजपर्यंतची सर्वात मोठी संख्या",
         },
       ],

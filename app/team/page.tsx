@@ -15,7 +15,7 @@ export default function TeamPage() {
         <div className="text-center mb-16">
           <div className="mb-8">
             <Image
-              src="/images/shivgarjana-logo.png"
+              src="/images/vijubhauu.jpg"
               alt="शिवगर्जना"
               width={300}
               height={100}
