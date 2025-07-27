@@ -1,9 +1,9 @@
 export const siteData = {
   // Metadata for the entire application (used in app/layout.tsx)
   metadata: {
-    title: "शिवगर्जना ढोल ताशा पथक | Shivagarjana Dhol Tasha Pathak Pune",
+    title: "शिवगर्जना ढोल-ताशा ध्वज पथक, पुणे | Shivagarjana Dhol Tasha Dhwaj Pathak, Pune",
     description:
-      "महाराष्ट्राच्या पारंपरिक संगीताचे संरक्षण करणारा धोल ताशा पथक. गणेश उत्सव, शिव जयंती आणि सांस्कृतिक कार्यक्रमांसाठी बुकिंग उपलब्ध.",
+      "महाराष्ट्राच्या पारंपरिक संगीताचे संरक्षण करणाराढोल-ताशा ध्वज पथक. गणेशोत्सव, शिव जयंती आणि सांस्कृतिक कार्यक्रमांसाठी बुकिंग उपलब्ध.",
     keywords: "dhol tasha, pathak, mumbai, ganesh utsav, maharashtra culture, traditional music",
   },
   // Content for the Footer component (components/layout/footer.tsx)
@@ -13,7 +13,6 @@ export const siteData = {
     quickLinks: [
      
       { name: "आमच्याबद्दल", href: "/about" },
-      { name: "आमची टीम", href: "/team" },
       { name: "कार्यक्रम", href: "/events" },
       { name: "मीडिया", href: "/media" },
     ],
@@ -22,7 +21,7 @@ export const siteData = {
     contactInfoTitle: "संपर्क माहिती",
     addressLine1: "123, संस्कृती भवन",
     addressLine2: "दादर पूर्व, मुंबई - 400014",
-    phone: "+91 98765 43210",
+    phone: "+91 97634 22233",
     email: "info@shivgarjana.com",
     copyright: `© ${new Date().getFullYear()} शिवगर्जना ढोल ताशा पथक. सर्व हक्क राखीव.`,
     privacyPolicy: { name: "गोपनीयता धोरण", href: "/privacy" },
@@ -33,12 +32,11 @@ export const siteData = {
     navigation: [
     
       { name: "आमच्याबद्दल", href: "/about" },
-      { name: "आमची टीम", href: "/team" },
       { name: "मीडिया", href: "/media" },
       { name: "कार्यक्रम", href: "/events" },
       { name: "संपर्क", href: "/contact" },
     ],
-    phoneNumber: "+91 98765 43210",
+    phoneNumber: "+91 97634 22233",
   },
   // Content for the Media page (app/media/page.tsx)
   mediaPage: {
@@ -431,102 +429,12 @@ export const siteData = {
       buttonContact: "संपर्क साधा",
     },
   },
-  // Content for the Team page (app/team/page.tsx)
-  teamPage: {
-    header: {
-      title: "आमची टीम",
-      description: "कुशल नेतृत्व आणि अनुभवी कलाकारांचे एक मजबूत कुटुंब",
-    },
-    leadership: {
-      title: "नेतृत्व मंडळ",
-      members: [
-        {
-          name: "श्री ललित पवार",
-          role: "संस्थापक अध्यक्ष",
-          experience: "15+ वर्षे",
-          quote: "संस्कृती हीच आपली खरी संपत्ती आहे",
-        },
-        {
-          name: "महेश गोखले",
-          role: "महिला विभाग प्रमुख",
-          experience: "8+ वर्षे",
-          quote: "महिलांचीही या क्षेत्रात भूमिका महत्वाची",
-        },
-        {
-          name: "गणेश शिर्के",
-          role: "मुख्य समन्वयक",
-          experience: "12+ वर्षे",
-          quote: "संघटनेतच शक्ती असते",
-        },
-      ],
-    },
-    dholMasters: {
-      title: "धोल ताशा मास्टर्स",
-      members: [
-        {
-          name: "ओंकार होळे",
-          speciality: "धोल मास्टर",
-          experience: "20+ वर्षे",
-          achievement: "राज्यस्तरीय पुरस्कार विजेता",
-          icon: "🥁",
-        },
-        {
-          name: "मयूर गायकवाड",
-          speciality: "ताशा तज्ञ",
-          experience: "18+ वर्षे",
-          achievement: "पारंपरिक तालांचे जाणकार",
-          icon: "🎵",
-        },
-        {
-          name: "श्री म्हणकळे",
-          speciality: "लय संयोजक",
-          experience: "15+ वर्षे",
-          achievement: "नवीन तालांचे निर्माते",
-          icon: "🎼",
-        },
-      ],
-    },
-    flagLeaders: {
-      title: "ध्वज विभाग प्रमुख",
-      members: [
-        {
-          name: "वैजयंती हम्बीर",
-          speciality: "ध्वज सेवक",
-          experience: "10+ वर्षे",
-          achievement: "कलात्मक झेंडा नृत्य",
-          icon: "🚩",
-        },
-        {
-          name: " वेदांत पोळ",
-          speciality: "ध्वज प्रशिक्षक",
-          experience: "12+ वर्षे",
-          achievement: "युवा प्रशिक्षण तज्ञ",
-          icon: "🎌",
-        },
-      ],
-    },
-    teamStats: {
-      title: "टीम आकडेवारी",
-      stats: [
-        { number: "25+", label: "धोल वादक", icon: "🥁", color: "text-red-600" },
-        { number: "20+", label: "ताशा वादक", icon: "🎵", color: "text-orange-600" },
-        { number: "30+", label: "ध्वज सेवक", icon: "🚩", color: "text-red-600" },
-        { number: "25+", label: "महिला कलाकार", icon: "👩‍🎨", color: "text-orange-600" },
-      ],
-    },
-    joinTeamCta: {
-      title: "आमच्या टीमचा भाग व्हा!",
-      description: "तुमच्यातही कलाकारी आहे? आमच्यासोबत येऊन महाराष्ट्राच्या संस्कृतीला वाढवा.",
-      buttonJoin: "आता सामील व्हा",
-      buttonMoreInfo: "अधिक माहिती",
-    },
-  },
   // Content for the Home page (app/page.tsx)
   homePage: {
     hero: {
       altText: "Shivagarjana Dhol Tasha Dhwaj Pathak Pune",
       title: "शिवगर्जना ढोल ताशा पथक",
-      tagline: '"लक्ष्मी रोडचा बुलंद आवाज - The most powerful voice of Laxmi Road"',
+      tagline: "लक्ष्मी रोडचा बुलंद आवाज",
       stats: [
         { icon: "Music", number: "300+", label: "धोल ताशा" },
         { icon: "Flag", number: "50+", label: "ध्वज" },

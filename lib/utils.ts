@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export const DEFAULT_WHATSAPP_NUMBER = "+91 90113 65766"
+export const DEFAULT_WHATSAPP_NUMBER = "+91 97634 22233"
 
 /**
  * Opens WhatsApp chat with the given number in a new tab.
